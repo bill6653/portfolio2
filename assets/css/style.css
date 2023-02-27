@@ -40,10 +40,6 @@ a {
     color: var(--main-text-color);
 }
 
-#gif {
-    max-height:70px;
-}
-
 nav {
     display: flex;
     flex-wrap: wrap;
@@ -103,4 +99,12 @@ img {
     width: 300px;
     height: 300px;
     align-items: center;
+}
+.about {
+    height: 90vh;
+    width: 70vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;    
+    flex-direction: column;
 }
